@@ -68,6 +68,15 @@ a {
 .bg-gray-light {
   background-color: #fafafa;
 }
+.bg-teal-light {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.bg-pink-light {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.bg-yellow-light {
+  background-color: rgba(247, 190, 34, 0.1);
+}
 /*#endregion - end of - background classes */
 
 /*#region - start of - text color classes */
@@ -89,6 +98,9 @@ a {
 .w-20 {
   width: 20%;
 }
+.w-33 {
+  width: 33%;
+}
 .w-50 {
   width: 50%;
 }
@@ -101,9 +113,17 @@ a {
 /*#endregion - end of - width classes */
 
 /*#region - start of - padding classes */
-.px-1 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.px-3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.px-1-5 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.py-3-5 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 .pb-2 {
   padding-bottom: 2rem;
@@ -152,6 +172,16 @@ a {
   line-height: 24px;
   padding: 1rem 0.75rem;
 }
+.section-title {
+  font-size: 45px;
+  line-height: 54px;
+  margin-bottom: 1.25rem;
+}
+.section-description {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 3rem;
+}
 /*#endregion - end of - helper classes */
 
 /*#endregion - end of - global styles */
@@ -176,16 +206,7 @@ a {
 /*#endregion - end of - header section */
 
 /*#region - start of - donation section */
-.donation .title {
-  font-size: 45px;
-  line-height: 54px;
-  margin-bottom: 1.25rem;
-}
-.donation .description {
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 3rem;
-}
+
 .donation-btn {
   font-family: "Inter", sans-serif;
   font-style: normal;
