@@ -62,6 +62,9 @@ a {
 .bg-dark {
   background-color: #0b0d17;
 }
+.bg-gray {
+  background-color: #d9d9d9;
+}
 
 .bg-gray-light {
   background-color: #fafafa;
@@ -237,6 +240,22 @@ a {
   margin-bottom: 0;
 }
 /*#endregion - end of - statistics section */
+
+/*#region - start of - newsletter section */
+#email {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #d9d9d9;
+  border-style: solid;
+  font-size: 1rem;
+}
+.btn-subscribe {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/*#endregion - end of - newsletter section */
 
 /*#region - start of - footer section */
 .footer h2 {
