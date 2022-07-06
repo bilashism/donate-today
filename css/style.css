@@ -16,4 +16,83 @@ h6 {
   font-family: "Inter", sans-serif;
 }
 
+/*#region - start of - helper classes */
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*#region - start of - flex classes */
+.d-inline-flex {
+  display: inline-flex;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+/*#endregion - end of - flex classes */
+
+/*#region - start of - background classes */
+
+/*#endregion - end of - background classes */
+
+/*#region - start of - text color classes */
+
+/*#endregion - end of - text color classes */
+
+/*#region - start of - height classes */
+
+/*#endregion - end of - height classes */
+
+/*#region - start of - width  classes */
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+}
+/*#endregion - end of - width classes */
+
+/*#region - start of - padding classes */
+.pb-2 {
+  padding-bottom: 2rem;
+}
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/*#endregion - end of - padding classes */
+
+/*#region - start of - border classes */
+.b-radius-sm {
+  border-radius: 0.25rem;
+}
+/*#endregion - end of - border classes */
+
+/*#region - start of - margin classes */
+.m-0 {
+  margin: 0;
+}
+/*#endregion - end of - margin classes */
+
+.text-center {
+  text-align: center;
+}
+/*#endregion - end of - helper classes */
+
 /*#endregion - end of - global styles */
