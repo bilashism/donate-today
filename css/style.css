@@ -15,7 +15,9 @@ h5,
 h6 {
   font-family: "Inter", sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
 /*#region - start of - helper classes */
 .container {
   max-width: 1240px;
@@ -44,20 +46,36 @@ h6 {
 /*#endregion - end of - flex classes */
 
 /*#region - start of - background classes */
-
+.bg-gradient-dark {
+  background-image: linear-gradient(
+    360deg,
+    #121212 0%,
+    rgba(18, 18, 18, 0) 100%
+  );
+}
+.bg-orange {
+  background-color: #ff5959;
+}
 /*#endregion - end of - background classes */
 
 /*#region - start of - text color classes */
-
+.text-white {
+  color: #fff;
+}
 /*#endregion - end of - text color classes */
 
 /*#region - start of - height classes */
-
+.min-100vh {
+  min-height: 100vh;
+}
 /*#endregion - end of - height classes */
 
 /*#region - start of - width  classes */
 .w-50 {
   width: 50%;
+}
+.w-75 {
+  width: 75%;
 }
 .w-100 {
   width: 100%;
@@ -88,11 +106,47 @@ h6 {
 .m-0 {
   margin: 0;
 }
+.mt-0 {
+  margin-top: 0;
+}
 /*#endregion - end of - margin classes */
-
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
 .text-center {
   text-align: center;
+}
+.fw-normal {
+  font-weight: normal;
+}
+.btn-cta {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  line-height: 24px;
+  padding: 1rem 0.75rem;
 }
 /*#endregion - end of - helper classes */
 
 /*#endregion - end of - global styles */
+
+/*#region - start of - header section */
+.header {
+  background-image: url("../images/donation9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header .title {
+  font-size: 65px;
+  line-height: 79px;
+  margin-bottom: 1.25rem;
+}
+.header .description {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 2.5rem;
+}
+/*#endregion - end of - header section */
