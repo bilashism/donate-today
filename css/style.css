@@ -4,7 +4,6 @@
 }
 
 body {
-  /* font-family: 'Lobster', cursive; */
   font-family: "Poppins", sans-serif;
 }
 h1,
@@ -65,6 +64,10 @@ a {
   background-color: #ff5959;
 }
 
+.bg-dark {
+  background-color: #0b0d17;
+}
+
 .bg-gray-light {
   background-color: #fafafa;
 }
@@ -83,8 +86,14 @@ a {
 .text-gray {
   color: #707070;
 }
+.text-gray-light {
+  color: #d9dbe1;
+}
 .text-white {
   color: #fff;
+}
+.text-orange {
+  color: #ff5959;
 }
 /*#endregion - end of - text color classes */
 
@@ -121,16 +130,16 @@ a {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.py-3-5 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
 .pb-2 {
   padding-bottom: 2rem;
 }
 .py-3 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.py-3-5 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 .pt-8 {
   padding-top: 8rem;
@@ -229,3 +238,17 @@ a {
   border-bottom: 1px solid #dadada;
 }
 /*#endregion - end of - donation section */
+
+/*#region - start of - footer section */
+.footer h2 {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+}
+.footer p {
+  font-size: 14px;
+  line-height: 24px;
+}
+/*#endregion - end of - footer section */
