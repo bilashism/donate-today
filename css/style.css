@@ -19,11 +19,6 @@ a {
   text-decoration: none;
 }
 /*#region - start of - helper classes */
-.container {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /*#region - start of - flex classes */
 .d-inline-flex {
@@ -42,6 +37,9 @@ a {
 
 .align-items-center {
   align-items: center;
+}
+.align-items-end {
+  align-items: flex-end;
 }
 
 .gap-1-25 {
@@ -98,13 +96,19 @@ a {
 /*#endregion - end of - height classes */
 
 /*#region - start of - width  classes */
+.max-w-75 {
+  max-width: 75rem;
+}
+
 .w-20 {
   width: 20%;
 }
 .w-33 {
   width: 33%;
 }
-
+.w-50 {
+  width: 50%;
+}
 .w-75 {
   width: 75%;
 }
@@ -151,6 +155,10 @@ a {
 }
 .mt-0 {
   margin-top: 0;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 /*#endregion - end of - margin classes */
 .text-uppercase {
@@ -223,6 +231,12 @@ a {
   border-bottom: 1px solid #dadada;
 }
 /*#endregion - end of - donation section */
+
+/*#region - start of - statistics section */
+.statistics .section-description {
+  margin-bottom: 0;
+}
+/*#endregion - end of - statistics section */
 
 /*#region - start of - footer section */
 .footer h2 {
